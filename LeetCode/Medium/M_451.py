@@ -13,6 +13,12 @@ Midway thoughts
     - well that worked and was a clean solution. How can I do this with a priority queue/heap
 
     - take 2
+
+Concluding thoughts
+    - It is good to know that heapq is the most common python module for implmenting a heap/min priority queue on lists. Difference between
+    that and queue.PriorityQueue is the latter is thread safe but has more overhead
+    - Definitely keep doing these heap problems but they really just seem to be counting frequencies with a counter and then performing
+    a heap on the result
 '''
 
 from collections import Counter
